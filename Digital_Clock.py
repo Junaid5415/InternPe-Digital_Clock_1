@@ -7,7 +7,7 @@ class my_Clock: # make a class
     def __init__(self,root): # Initialize all the property of root
         self.root = root
         self.root.title('Digital Clock') # Give title of the application
-        self.root.wm_iconbitmap('Digital_Clock.ico') # This code is use to set icon of the application
+        self.root.wm_iconbitmap('Digital_Clock.ico') # This code is used to set icon of the application
         self.root.config(bg= 'black') # Changes background to black
         self.label1 = Label(root,bg='#000000',fg= '#7FFF00', # Initiallized a label to hold the time value
                             cursor='crosshair',font=('Radioland',30))
